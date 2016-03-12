@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F931A2B1C93C0EB005ABAA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A2A1C93C0EB005ABAA4 /* AppDelegate.swift */; };
+		2F931A2D1C93C0EB005ABAA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A2C1C93C0EB005ABAA4 /* ViewController.swift */; };
+		2F931A301C93C0EB005ABAA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A2E1C93C0EB005ABAA4 /* Main.storyboard */; };
+		2F931A321C93C0EB005ABAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A311C93C0EB005ABAA4 /* Assets.xcassets */; };
+		2F931A351C93C0EB005ABAA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A331C93C0EB005ABAA4 /* LaunchScreen.storyboard */; };
+		2F931A401C93C0EB005ABAA4 /* Wrist_MessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A3F1C93C0EB005ABAA4 /* Wrist_MessageTests.swift */; };
+		2F931A4B1C93C0EB005ABAA4 /* Wrist_MessageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A4A1C93C0EB005ABAA4 /* Wrist_MessageUITests.swift */; };
+		2F931A501C93C0EB005ABAA4 /* Wrist Message WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2F931A4F1C93C0EB005ABAA4 /* Wrist Message WatchKit App.app */; };
+		2F931A561C93C0EB005ABAA4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A541C93C0EB005ABAA4 /* Interface.storyboard */; };
+		2F931A581C93C0EB005ABAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A571C93C0EB005ABAA4 /* Assets.xcassets */; };
+		2F931A5F1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2F931A5E1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2F931A641C93C0EC005ABAA4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A631C93C0EC005ABAA4 /* InterfaceController.swift */; };
+		2F931A661C93C0EC005ABAA4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */; };
+		2F931A681C93C0EC005ABAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A671C93C0EC005ABAA4 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F931A3C1C93C0EB005ABAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F931A1F1C93C0EB005ABAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F931A261C93C0EB005ABAA4;
+			remoteInfo = "Wrist Message";
+		};
+		2F931A471C93C0EB005ABAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F931A1F1C93C0EB005ABAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F931A261C93C0EB005ABAA4;
+			remoteInfo = "Wrist Message";
+		};
+		2F931A511C93C0EB005ABAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F931A1F1C93C0EB005ABAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F931A4E1C93C0EB005ABAA4;
+			remoteInfo = "Wrist Message WatchKit App";
+		};
+		2F931A601C93C0EC005ABAA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F931A1F1C93C0EB005ABAA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F931A5D1C93C0EC005ABAA4;
+			remoteInfo = "Wrist Message WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F931A6F1C93C0EC005ABAA4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2F931A5F1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A731C93C0EC005ABAA4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2F931A501C93C0EB005ABAA4 /* Wrist Message WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F931A271C93C0EB005ABAA4 /* Wrist Message.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wrist Message.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F931A2A1C93C0EB005ABAA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F931A2C1C93C0EB005ABAA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F931A2F1C93C0EB005ABAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F931A311C93C0EB005ABAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F931A341C93C0EB005ABAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F931A361C93C0EB005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F931A3B1C93C0EB005ABAA4 /* Wrist MessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wrist MessageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F931A3F1C93C0EB005ABAA4 /* Wrist_MessageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrist_MessageTests.swift; sourceTree = "<group>"; };
+		2F931A411C93C0EB005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F931A461C93C0EB005ABAA4 /* Wrist MessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wrist MessageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F931A4A1C93C0EB005ABAA4 /* Wrist_MessageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wrist_MessageUITests.swift; sourceTree = "<group>"; };
+		2F931A4C1C93C0EB005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F931A4F1C93C0EB005ABAA4 /* Wrist Message WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wrist Message WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F931A551C93C0EB005ABAA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		2F931A571C93C0EB005ABAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F931A591C93C0EB005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F931A5E1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Wrist Message WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F931A631C93C0EC005ABAA4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		2F931A671C93C0EC005ABAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F931A691C93C0EC005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F931A241C93C0EB005ABAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A381C93C0EB005ABAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A431C93C0EB005ABAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A5B1C93C0EC005ABAA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F931A1E1C93C0EB005ABAA4 = {
+			isa = PBXGroup;
+			children = (
+				2F931A291C93C0EB005ABAA4 /* Wrist Message */,
+				2F931A3E1C93C0EB005ABAA4 /* Wrist MessageTests */,
+				2F931A491C93C0EB005ABAA4 /* Wrist MessageUITests */,
+				2F931A531C93C0EB005ABAA4 /* Wrist Message WatchKit App */,
+				2F931A621C93C0EC005ABAA4 /* Wrist Message WatchKit Extension */,
+				2F931A281C93C0EB005ABAA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F931A281C93C0EB005ABAA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F931A271C93C0EB005ABAA4 /* Wrist Message.app */,
+				2F931A3B1C93C0EB005ABAA4 /* Wrist MessageTests.xctest */,
+				2F931A461C93C0EB005ABAA4 /* Wrist MessageUITests.xctest */,
+				2F931A4F1C93C0EB005ABAA4 /* Wrist Message WatchKit App.app */,
+				2F931A5E1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F931A291C93C0EB005ABAA4 /* Wrist Message */ = {
+			isa = PBXGroup;
+			children = (
+				2F931A2A1C93C0EB005ABAA4 /* AppDelegate.swift */,
+				2F931A2C1C93C0EB005ABAA4 /* ViewController.swift */,
+				2F931A2E1C93C0EB005ABAA4 /* Main.storyboard */,
+				2F931A311C93C0EB005ABAA4 /* Assets.xcassets */,
+				2F931A331C93C0EB005ABAA4 /* LaunchScreen.storyboard */,
+				2F931A361C93C0EB005ABAA4 /* Info.plist */,
+			);
+			path = "Wrist Message";
+			sourceTree = "<group>";
+		};
+		2F931A3E1C93C0EB005ABAA4 /* Wrist MessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F931A3F1C93C0EB005ABAA4 /* Wrist_MessageTests.swift */,
+				2F931A411C93C0EB005ABAA4 /* Info.plist */,
+			);
+			path = "Wrist MessageTests";
+			sourceTree = "<group>";
+		};
+		2F931A491C93C0EB005ABAA4 /* Wrist MessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F931A4A1C93C0EB005ABAA4 /* Wrist_MessageUITests.swift */,
+				2F931A4C1C93C0EB005ABAA4 /* Info.plist */,
+			);
+			path = "Wrist MessageUITests";
+			sourceTree = "<group>";
+		};
+		2F931A531C93C0EB005ABAA4 /* Wrist Message WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				2F931A541C93C0EB005ABAA4 /* Interface.storyboard */,
+				2F931A571C93C0EB005ABAA4 /* Assets.xcassets */,
+				2F931A591C93C0EB005ABAA4 /* Info.plist */,
+			);
+			path = "Wrist Message WatchKit App";
+			sourceTree = "<group>";
+		};
+		2F931A621C93C0EC005ABAA4 /* Wrist Message WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2F931A631C93C0EC005ABAA4 /* InterfaceController.swift */,
+				2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */,
+				2F931A671C93C0EC005ABAA4 /* Assets.xcassets */,
+				2F931A691C93C0EC005ABAA4 /* Info.plist */,
+			);
+			path = "Wrist Message WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F931A261C93C0EB005ABAA4 /* Wrist Message */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F931A741C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message" */;
+			buildPhases = (
+				2F931A231C93C0EB005ABAA4 /* Sources */,
+				2F931A241C93C0EB005ABAA4 /* Frameworks */,
+				2F931A251C93C0EB005ABAA4 /* Resources */,
+				2F931A731C93C0EC005ABAA4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F931A521C93C0EB005ABAA4 /* PBXTargetDependency */,
+			);
+			name = "Wrist Message";
+			productName = "Wrist Message";
+			productReference = 2F931A271C93C0EB005ABAA4 /* Wrist Message.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F931A3A1C93C0EB005ABAA4 /* Wrist MessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F931A771C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist MessageTests" */;
+			buildPhases = (
+				2F931A371C93C0EB005ABAA4 /* Sources */,
+				2F931A381C93C0EB005ABAA4 /* Frameworks */,
+				2F931A391C93C0EB005ABAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F931A3D1C93C0EB005ABAA4 /* PBXTargetDependency */,
+			);
+			name = "Wrist MessageTests";
+			productName = "Wrist MessageTests";
+			productReference = 2F931A3B1C93C0EB005ABAA4 /* Wrist MessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F931A451C93C0EB005ABAA4 /* Wrist MessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F931A7A1C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist MessageUITests" */;
+			buildPhases = (
+				2F931A421C93C0EB005ABAA4 /* Sources */,
+				2F931A431C93C0EB005ABAA4 /* Frameworks */,
+				2F931A441C93C0EB005ABAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F931A481C93C0EB005ABAA4 /* PBXTargetDependency */,
+			);
+			name = "Wrist MessageUITests";
+			productName = "Wrist MessageUITests";
+			productReference = 2F931A461C93C0EB005ABAA4 /* Wrist MessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2F931A4E1C93C0EB005ABAA4 /* Wrist Message WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F931A701C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message WatchKit App" */;
+			buildPhases = (
+				2F931A4D1C93C0EB005ABAA4 /* Resources */,
+				2F931A6F1C93C0EC005ABAA4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F931A611C93C0EC005ABAA4 /* PBXTargetDependency */,
+			);
+			name = "Wrist Message WatchKit App";
+			productName = "Wrist Message WatchKit App";
+			productReference = 2F931A4F1C93C0EB005ABAA4 /* Wrist Message WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2F931A5D1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F931A6C1C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message WatchKit Extension" */;
+			buildPhases = (
+				2F931A5A1C93C0EC005ABAA4 /* Sources */,
+				2F931A5B1C93C0EC005ABAA4 /* Frameworks */,
+				2F931A5C1C93C0EC005ABAA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wrist Message WatchKit Extension";
+			productName = "Wrist Message WatchKit Extension";
+			productReference = 2F931A5E1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F931A1F1C93C0EB005ABAA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Healthy Pixels";
+				TargetAttributes = {
+					2F931A261C93C0EB005ABAA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2F931A3A1C93C0EB005ABAA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2F931A261C93C0EB005ABAA4;
+					};
+					2F931A451C93C0EB005ABAA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 2F931A261C93C0EB005ABAA4;
+					};
+					2F931A4E1C93C0EB005ABAA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					2F931A5D1C93C0EC005ABAA4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F931A221C93C0EB005ABAA4 /* Build configuration list for PBXProject "Wrist Message" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F931A1E1C93C0EB005ABAA4;
+			productRefGroup = 2F931A281C93C0EB005ABAA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F931A261C93C0EB005ABAA4 /* Wrist Message */,
+				2F931A3A1C93C0EB005ABAA4 /* Wrist MessageTests */,
+				2F931A451C93C0EB005ABAA4 /* Wrist MessageUITests */,
+				2F931A4E1C93C0EB005ABAA4 /* Wrist Message WatchKit App */,
+				2F931A5D1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F931A251C93C0EB005ABAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F931A351C93C0EB005ABAA4 /* LaunchScreen.storyboard in Resources */,
+				2F931A321C93C0EB005ABAA4 /* Assets.xcassets in Resources */,
+				2F931A301C93C0EB005ABAA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A391C93C0EB005ABAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A441C93C0EB005ABAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A4D1C93C0EB005ABAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F931A581C93C0EB005ABAA4 /* Assets.xcassets in Resources */,
+				2F931A561C93C0EB005ABAA4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A5C1C93C0EC005ABAA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F931A681C93C0EC005ABAA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F931A231C93C0EB005ABAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F931A2D1C93C0EB005ABAA4 /* ViewController.swift in Sources */,
+				2F931A2B1C93C0EB005ABAA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A371C93C0EB005ABAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F931A401C93C0EB005ABAA4 /* Wrist_MessageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A421C93C0EB005ABAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F931A4B1C93C0EB005ABAA4 /* Wrist_MessageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F931A5A1C93C0EC005ABAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F931A661C93C0EC005ABAA4 /* ExtensionDelegate.swift in Sources */,
+				2F931A641C93C0EC005ABAA4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F931A3D1C93C0EB005ABAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F931A261C93C0EB005ABAA4 /* Wrist Message */;
+			targetProxy = 2F931A3C1C93C0EB005ABAA4 /* PBXContainerItemProxy */;
+		};
+		2F931A481C93C0EB005ABAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F931A261C93C0EB005ABAA4 /* Wrist Message */;
+			targetProxy = 2F931A471C93C0EB005ABAA4 /* PBXContainerItemProxy */;
+		};
+		2F931A521C93C0EB005ABAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F931A4E1C93C0EB005ABAA4 /* Wrist Message WatchKit App */;
+			targetProxy = 2F931A511C93C0EB005ABAA4 /* PBXContainerItemProxy */;
+		};
+		2F931A611C93C0EC005ABAA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F931A5D1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension */;
+			targetProxy = 2F931A601C93C0EC005ABAA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F931A2E1C93C0EB005ABAA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F931A2F1C93C0EB005ABAA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F931A331C93C0EB005ABAA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F931A341C93C0EB005ABAA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2F931A541C93C0EB005ABAA4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F931A551C93C0EB005ABAA4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F931A6A1C93C0EC005ABAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F931A6B1C93C0EC005ABAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F931A6D1C93C0EC005ABAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist Message WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		2F931A6E1C93C0EC005ABAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist Message WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		2F931A711C93C0EC005ABAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Wrist_Message_WatchKit_Extension;
+				INFOPLIST_FILE = "Wrist Message WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		2F931A721C93C0EC005ABAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Wrist_Message_WatchKit_Extension;
+				INFOPLIST_FILE = "Wrist Message WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		2F931A751C93C0EC005ABAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wrist Message/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F931A761C93C0EC005ABAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wrist Message/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F931A781C93C0EC005ABAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wrist MessageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-MessageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrist Message.app/Wrist Message";
+			};
+			name = Debug;
+		};
+		2F931A791C93C0EC005ABAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wrist MessageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-MessageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wrist Message.app/Wrist Message";
+			};
+			name = Release;
+		};
+		2F931A7B1C93C0EC005ABAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist MessageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-MessageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wrist Message";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2F931A7C1C93C0EC005ABAA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Wrist MessageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-MessageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Wrist Message";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F931A221C93C0EB005ABAA4 /* Build configuration list for PBXProject "Wrist Message" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F931A6A1C93C0EC005ABAA4 /* Debug */,
+				2F931A6B1C93C0EC005ABAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F931A6C1C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F931A6D1C93C0EC005ABAA4 /* Debug */,
+				2F931A6E1C93C0EC005ABAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F931A701C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F931A711C93C0EC005ABAA4 /* Debug */,
+				2F931A721C93C0EC005ABAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F931A741C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F931A751C93C0EC005ABAA4 /* Debug */,
+				2F931A761C93C0EC005ABAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F931A771C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist MessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F931A781C93C0EC005ABAA4 /* Debug */,
+				2F931A791C93C0EC005ABAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F931A7A1C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist MessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F931A7B1C93C0EC005ABAA4 /* Debug */,
+				2F931A7C1C93C0EC005ABAA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F931A1F1C93C0EB005ABAA4 /* Project object */;
+}
