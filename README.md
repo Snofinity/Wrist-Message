@@ -6,21 +6,22 @@ AT LAST! Type and send your own text messages on the Apple Watch with a compact 
 1. Select a Contact to open the keyboard in Wrist Message
 2. Type with the keyboard using text, emojis, numbers, or symbols
 3. Send the message and confirm final delivery
-
-
+|
+|
 ######**TOP TIPS**
 * Use the globe key to access different keyboards
 * Double-click the shift key to enable caps lock
 * Force touch the Contacts screen to sync contacts
 * When finished, double-click the digital crown to return to Wrist Message
-
-
+|
+|
 ######**FRIENDLY FEATURES**
 * Contacts sync with the Apple Watch when Wrist Message opens
 * Keyboard provides haptic feedback
 * Sent messages automatically open in the Messages app for final confirmation
 * Wrist Message never tracks contacts or messages!
-
+|
+|
 Good things come in small packages. Enjoy!
 
 
