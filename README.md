@@ -1,4 +1,3 @@
-
 —————––––––——— Description ———––––––—————
 
 AT LAST! Type and send your own text messages on the Apple Watch with a compact keyboard – a beautifully simple solution!
