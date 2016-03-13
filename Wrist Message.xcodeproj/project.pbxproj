@@ -18,9 +18,15 @@
 		2F931A561C93C0EB005ABAA4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A541C93C0EB005ABAA4 /* Interface.storyboard */; };
 		2F931A581C93C0EB005ABAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A571C93C0EB005ABAA4 /* Assets.xcassets */; };
 		2F931A5F1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2F931A5E1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		2F931A641C93C0EC005ABAA4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A631C93C0EC005ABAA4 /* InterfaceController.swift */; };
+		2F931A641C93C0EC005ABAA4 /* Messenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A631C93C0EC005ABAA4 /* Messenger.swift */; };
 		2F931A661C93C0EC005ABAA4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */; };
 		2F931A681C93C0EC005ABAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A671C93C0EC005ABAA4 /* Assets.xcassets */; };
+		2FFED9EB1C93CF7300089E7F /* FlowChart1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFED9E71C93CF7300089E7F /* FlowChart1@2x.png */; };
+		2FFED9EC1C93CF7300089E7F /* FlowChart2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFED9E81C93CF7300089E7F /* FlowChart2@2x.png */; };
+		2FFED9ED1C93CF7300089E7F /* FlowChart3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFED9E91C93CF7300089E7F /* FlowChart3@2x.png */; };
+		2FFED9EE1C93CF7300089E7F /* FlowChart4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFED9EA1C93CF7300089E7F /* FlowChart4@2x.png */; };
+		2FFED9F11C93D03800089E7F /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFED9F01C93D03800089E7F /* Contacts.swift */; };
+		2FFED9F31C93D03F00089E7F /* ContactsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFED9F21C93D03F00089E7F /* ContactsRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,10 +104,16 @@
 		2F931A571C93C0EB005ABAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F931A591C93C0EB005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F931A5E1C93C0EC005ABAA4 /* Wrist Message WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Wrist Message WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F931A631C93C0EC005ABAA4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		2F931A631C93C0EC005ABAA4 /* Messenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messenger.swift; sourceTree = "<group>"; };
 		2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		2F931A671C93C0EC005ABAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F931A691C93C0EC005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFED9E71C93CF7300089E7F /* FlowChart1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlowChart1@2x.png"; sourceTree = "<group>"; };
+		2FFED9E81C93CF7300089E7F /* FlowChart2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlowChart2@2x.png"; sourceTree = "<group>"; };
+		2FFED9E91C93CF7300089E7F /* FlowChart3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlowChart3@2x.png"; sourceTree = "<group>"; };
+		2FFED9EA1C93CF7300089E7F /* FlowChart4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlowChart4@2x.png"; sourceTree = "<group>"; };
+		2FFED9F01C93D03800089E7F /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		2FFED9F21C93D03F00089E7F /* ContactsRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +157,7 @@
 				2F931A531C93C0EB005ABAA4 /* Wrist Message WatchKit App */,
 				2F931A621C93C0EC005ABAA4 /* Wrist Message WatchKit Extension */,
 				2F931A281C93C0EB005ABAA4 /* Products */,
+				2FFED9EF1C93CF7800089E7F /* Instructions */,
 			);
 			sourceTree = "<group>";
 		};
@@ -204,12 +217,25 @@
 		2F931A621C93C0EC005ABAA4 /* Wrist Message WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				2F931A631C93C0EC005ABAA4 /* InterfaceController.swift */,
+				2F931A631C93C0EC005ABAA4 /* Messenger.swift */,
+				2FFED9F01C93D03800089E7F /* Contacts.swift */,
+				2FFED9F21C93D03F00089E7F /* ContactsRow.swift */,
 				2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */,
 				2F931A671C93C0EC005ABAA4 /* Assets.xcassets */,
 				2F931A691C93C0EC005ABAA4 /* Info.plist */,
 			);
 			path = "Wrist Message WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		2FFED9EF1C93CF7800089E7F /* Instructions */ = {
+			isa = PBXGroup;
+			children = (
+				2FFED9E71C93CF7300089E7F /* FlowChart1@2x.png */,
+				2FFED9E81C93CF7300089E7F /* FlowChart2@2x.png */,
+				2FFED9E91C93CF7300089E7F /* FlowChart3@2x.png */,
+				2FFED9EA1C93CF7300089E7F /* FlowChart4@2x.png */,
+			);
+			name = Instructions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +342,7 @@
 				TargetAttributes = {
 					2F931A261C93C0EB005ABAA4 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3S72WFV46W;
 					};
 					2F931A3A1C93C0EB005ABAA4 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -360,9 +387,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FFED9ED1C93CF7300089E7F /* FlowChart3@2x.png in Resources */,
+				2FFED9EB1C93CF7300089E7F /* FlowChart1@2x.png in Resources */,
 				2F931A351C93C0EB005ABAA4 /* LaunchScreen.storyboard in Resources */,
 				2F931A321C93C0EB005ABAA4 /* Assets.xcassets in Resources */,
 				2F931A301C93C0EB005ABAA4 /* Main.storyboard in Resources */,
+				2FFED9EC1C93CF7300089E7F /* FlowChart2@2x.png in Resources */,
+				2FFED9EE1C93CF7300089E7F /* FlowChart4@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,7 +461,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F931A661C93C0EC005ABAA4 /* ExtensionDelegate.swift in Sources */,
-				2F931A641C93C0EC005ABAA4 /* InterfaceController.swift in Sources */,
+				2F931A641C93C0EC005ABAA4 /* Messenger.swift in Sources */,
+				2FFED9F11C93D03800089E7F /* Contacts.swift in Sources */,
+				2FFED9F31C93D03F00089E7F /* ContactsRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,7 +665,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Wrist Message/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -643,7 +678,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Wrist Message/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.healthypixels.Wrist-Message";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -717,6 +754,7 @@
 				2F931A6E1C93C0EC005ABAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F931A701C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +763,7 @@
 				2F931A721C93C0EC005ABAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F931A741C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist Message" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +772,7 @@
 				2F931A761C93C0EC005ABAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F931A771C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist MessageTests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +781,7 @@
 				2F931A791C93C0EC005ABAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F931A7A1C93C0EC005ABAA4 /* Build configuration list for PBXNativeTarget "Wrist MessageUITests" */ = {
 			isa = XCConfigurationList;
@@ -749,6 +790,7 @@
 				2F931A7C1C93C0EC005ABAA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
