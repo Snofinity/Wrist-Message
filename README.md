@@ -33,6 +33,7 @@ I finally asked them if my idea for a text messaging keyboard on Apple Watch was
 
 For now, don’t expect to find a keyboard that sends text messages on the App Store. It is because of Apple’s unfair restrictions that I'm posting Wrist Message on GitHub. Feel free to Fork this project and donate using the button below.
 
-
+Tyler Cheves
+<br />
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F5BC7LH45SZVJ)
