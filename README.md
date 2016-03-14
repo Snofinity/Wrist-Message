@@ -19,10 +19,10 @@ AT LAST! Type and send your own text messages on the Apple Watch with a compact 
 * Sent messages automatically open in the Messages app for final confirmation
 * Wrist Message never tracks contacts or messages!
 
-<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart1@2x.png" width="183.6px" height="237.6px" />
-<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart2@2x.png" width="183.6px" height="237.6px" />
-<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart3@2x.png" width="183.6px" height="237.6px" />
-<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart4@2x.png" width="183.6px" height="237.6px" />
+<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart1@2x.png" width="220.3px" height="285.1px" />
+<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart2@2x.png" width="220.3px" height="285.1px" />
+<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart3@2x.png" width="220.3px" height="285.1px" />
+<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart4@2x.png" width="220.3px" height="285.1px" />
 
 Good things come in small packages. Enjoy!
 
