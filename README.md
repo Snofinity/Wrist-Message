@@ -23,6 +23,7 @@ Good things come in small packages. Enjoy!
 
 ---
 
+
 ##A note to the reader
 
   I submitted Wrist Message to the App Store in early March, but only to meet Apple’s official rejection. In Apple’s rejection letter, they claimed that Wrist Message “contributes to a lower quality user experience than Apple users expect.” I appealed, but Apple stuck to their decision, this time suggesting “it would be appropriate to remove the full keyboard from your Watch Extension app. Dictation and number pads are acceptable.”
