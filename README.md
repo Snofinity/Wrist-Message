@@ -20,6 +20,8 @@ AT LAST! Type and send your own text messages on the Apple Watch with a compact 
 * Wrist Message never tracks contacts or messages!
 
 <img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart1@2x.png" width="244.8px" height="316.8px" />
+<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart2@2x.png" width="244.8px" height="316.8px" />
+<img src="https://raw.githubusercontent.com/Snofinity/Wrist-Message/master/FlowChart3@2x.png" width="244.8px" height="316.8px" />
 
 Good things come in small packages. Enjoy!
 
