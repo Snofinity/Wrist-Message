@@ -19,6 +19,7 @@ AT LAST! Type and send your own text messages on the Apple Watch with a compact 
 * Sent messages automatically open in the Messages app for final confirmation
 * Wrist Message never tracks contacts or messages!
 
+
 Good things come in small packages. Enjoy!
 
 <br />
