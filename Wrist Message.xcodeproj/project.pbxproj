@@ -28,6 +28,19 @@
 		2F931A641C93C0EC005ABAA4 /* Messenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A631C93C0EC005ABAA4 /* Messenger.swift */; };
 		2F931A661C93C0EC005ABAA4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */; };
 		2F931A681C93C0EC005ABAA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F931A671C93C0EC005ABAA4 /* Assets.xcassets */; };
+		2FB72B571C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B4A1C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@2x.png */; };
+		2FB72B581C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B4B1C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@3x.png */; };
+		2FB72B591C97B5E2000709C2 /* AppleWatch_HomeScreen_40pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B4C1C97B5E2000709C2 /* AppleWatch_HomeScreen_40pt@2x.png */; };
+		2FB72B5A1C97B5E2000709C2 /* AppleWatch_NotificationCenter_38mm_24pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B4D1C97B5E2000709C2 /* AppleWatch_NotificationCenter_38mm_24pt@2x.png */; };
+		2FB72B5B1C97B5E2000709C2 /* AppleWatch_NotificationCenter_42mm_27.5pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B4E1C97B5E2000709C2 /* AppleWatch_NotificationCenter_42mm_27.5pt@2x.png */; };
+		2FB72B5C1C97B5E2000709C2 /* AppleWatch_ShortLook_38mm_86pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B4F1C97B5E2000709C2 /* AppleWatch_ShortLook_38mm_86pt@2x.png */; };
+		2FB72B5D1C97B5E2000709C2 /* AppleWatch_ShortLook_42mm_98pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B501C97B5E2000709C2 /* AppleWatch_ShortLook_42mm_98pt@2x.png */; };
+		2FB72B5E1C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B511C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@2x.png */; };
+		2FB72B5F1C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B521C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@3x.png */; };
+		2FB72B601C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B531C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@2x.png */; };
+		2FB72B611C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B541C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@3x.png */; };
+		2FB72B621C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B551C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@2x.png */; };
+		2FB72B631C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FB72B561C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@3x.png */; };
 		2FE2269C1C97B113009E1D1E /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FE2269B1C97B113009E1D1E /* AppIcon.png */; };
 		2FFED9EB1C93CF7300089E7F /* FlowChart1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFED9E71C93CF7300089E7F /* FlowChart1@2x.png */; };
 		2FFED9EC1C93CF7300089E7F /* FlowChart2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFED9E81C93CF7300089E7F /* FlowChart2@2x.png */; };
@@ -123,6 +136,19 @@
 		2F931A651C93C0EC005ABAA4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		2F931A671C93C0EC005ABAA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F931A691C93C0EC005ABAA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FB72B4A1C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppleWatch_CompanionSettings_29pt@2x.png"; path = "App icon sizes/AppleWatch_CompanionSettings_29pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B4B1C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppleWatch_CompanionSettings_29pt@3x.png"; path = "App icon sizes/AppleWatch_CompanionSettings_29pt@3x.png"; sourceTree = "<group>"; };
+		2FB72B4C1C97B5E2000709C2 /* AppleWatch_HomeScreen_40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppleWatch_HomeScreen_40pt@2x.png"; path = "App icon sizes/AppleWatch_HomeScreen_40pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B4D1C97B5E2000709C2 /* AppleWatch_NotificationCenter_38mm_24pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppleWatch_NotificationCenter_38mm_24pt@2x.png"; path = "App icon sizes/AppleWatch_NotificationCenter_38mm_24pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B4E1C97B5E2000709C2 /* AppleWatch_NotificationCenter_42mm_27.5pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppleWatch_NotificationCenter_42mm_27.5pt@2x.png"; path = "App icon sizes/AppleWatch_NotificationCenter_42mm_27.5pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B4F1C97B5E2000709C2 /* AppleWatch_ShortLook_38mm_86pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppleWatch_ShortLook_38mm_86pt@2x.png"; path = "App icon sizes/AppleWatch_ShortLook_38mm_86pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B501C97B5E2000709C2 /* AppleWatch_ShortLook_42mm_98pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppleWatch_ShortLook_42mm_98pt@2x.png"; path = "App icon sizes/AppleWatch_ShortLook_42mm_98pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B511C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone_App_iOS7-9_60pt@2x.png"; path = "App icon sizes/iPhone_App_iOS7-9_60pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B521C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone_App_iOS7-9_60pt@3x.png"; path = "App icon sizes/iPhone_App_iOS7-9_60pt@3x.png"; sourceTree = "<group>"; };
+		2FB72B531C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone_Settings_iOS5-9_29pt@2x.png"; path = "App icon sizes/iPhone_Settings_iOS5-9_29pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B541C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone_Settings_iOS5-9_29pt@3x.png"; path = "App icon sizes/iPhone_Settings_iOS5-9_29pt@3x.png"; sourceTree = "<group>"; };
+		2FB72B551C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone_Spotlight_iOS7-9_40pt@2x.png"; path = "App icon sizes/iPhone_Spotlight_iOS7-9_40pt@2x.png"; sourceTree = "<group>"; };
+		2FB72B561C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPhone_Spotlight_iOS7-9_40pt@3x.png"; path = "App icon sizes/iPhone_Spotlight_iOS7-9_40pt@3x.png"; sourceTree = "<group>"; };
 		2FE2269B1C97B113009E1D1E /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
 		2FFED9E71C93CF7300089E7F /* FlowChart1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlowChart1@2x.png"; sourceTree = "<group>"; };
 		2FFED9E81C93CF7300089E7F /* FlowChart2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FlowChart2@2x.png"; sourceTree = "<group>"; };
@@ -189,7 +215,7 @@
 				2F931A281C93C0EB005ABAA4 /* Products */,
 				2FFED9EF1C93CF7800089E7F /* Instructions */,
 				2F2C9A0A1C97671000716866 /* Other images */,
-				2FE2269D1C97B129009E1D1E /* App icon */,
+				2FB72B641C97B5E7000709C2 /* App icons */,
 			);
 			sourceTree = "<group>";
 		};
@@ -259,12 +285,25 @@
 			path = "Wrist Message WatchKit Extension";
 			sourceTree = "<group>";
 		};
-		2FE2269D1C97B129009E1D1E /* App icon */ = {
+		2FB72B641C97B5E7000709C2 /* App icons */ = {
 			isa = PBXGroup;
 			children = (
 				2FE2269B1C97B113009E1D1E /* AppIcon.png */,
+				2FB72B4A1C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@2x.png */,
+				2FB72B4B1C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@3x.png */,
+				2FB72B4C1C97B5E2000709C2 /* AppleWatch_HomeScreen_40pt@2x.png */,
+				2FB72B4D1C97B5E2000709C2 /* AppleWatch_NotificationCenter_38mm_24pt@2x.png */,
+				2FB72B4E1C97B5E2000709C2 /* AppleWatch_NotificationCenter_42mm_27.5pt@2x.png */,
+				2FB72B4F1C97B5E2000709C2 /* AppleWatch_ShortLook_38mm_86pt@2x.png */,
+				2FB72B501C97B5E2000709C2 /* AppleWatch_ShortLook_42mm_98pt@2x.png */,
+				2FB72B511C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@2x.png */,
+				2FB72B521C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@3x.png */,
+				2FB72B531C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@2x.png */,
+				2FB72B541C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@3x.png */,
+				2FB72B551C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@2x.png */,
+				2FB72B561C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@3x.png */,
 			);
-			name = "App icon";
+			name = "App icons";
 			sourceTree = "<group>";
 		};
 		2FFED9EF1C93CF7800089E7F /* Instructions */ = {
@@ -427,21 +466,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FB72B571C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@2x.png in Resources */,
+				2FB72B601C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@2x.png in Resources */,
+				2FB72B621C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@2x.png in Resources */,
+				2FB72B5A1C97B5E2000709C2 /* AppleWatch_NotificationCenter_38mm_24pt@2x.png in Resources */,
 				2F2C9A121C97AD4700716866 /* CapsLockIcon.png in Resources */,
 				2F2C9A131C97AD4700716866 /* DeleteIcon.png in Resources */,
+				2FB72B5E1C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@2x.png in Resources */,
 				2F2C9A101C97AD4700716866 /* AltIcon.png in Resources */,
 				2FFED9ED1C93CF7300089E7F /* FlowChart3@2x.png in Resources */,
+				2FB72B5C1C97B5E2000709C2 /* AppleWatch_ShortLook_38mm_86pt@2x.png in Resources */,
 				2F2C9A111C97AD4700716866 /* CapsIcon.png in Resources */,
+				2FB72B631C97B5E2000709C2 /* iPhone_Spotlight_iOS7-9_40pt@3x.png in Resources */,
+				2FB72B591C97B5E2000709C2 /* AppleWatch_HomeScreen_40pt@2x.png in Resources */,
 				2FE2269C1C97B113009E1D1E /* AppIcon.png in Resources */,
 				2FFED9EB1C93CF7300089E7F /* FlowChart1@2x.png in Resources */,
 				2F931A351C93C0EB005ABAA4 /* LaunchScreen.storyboard in Resources */,
 				2F931A321C93C0EB005ABAA4 /* Assets.xcassets in Resources */,
+				2FB72B5F1C97B5E2000709C2 /* iPhone_App_iOS7-9_60pt@3x.png in Resources */,
 				2F931A301C93C0EB005ABAA4 /* Main.storyboard in Resources */,
 				2F2C9A181C97AD5200716866 /* ContactsIcon42.png in Resources */,
 				2FFED9EC1C93CF7300089E7F /* FlowChart2@2x.png in Resources */,
 				2F2C9A171C97AD5200716866 /* ContactsIcon38.png in Resources */,
+				2FB72B611C97B5E2000709C2 /* iPhone_Settings_iOS5-9_29pt@3x.png in Resources */,
 				2FFED9EE1C93CF7300089E7F /* FlowChart4@2x.png in Resources */,
+				2FB72B5D1C97B5E2000709C2 /* AppleWatch_ShortLook_42mm_98pt@2x.png in Resources */,
+				2FB72B581C97B5E2000709C2 /* AppleWatch_CompanionSettings_29pt@3x.png in Resources */,
 				2F2C9A141C97AD4700716866 /* ShiftIcon.png in Resources */,
+				2FB72B5B1C97B5E2000709C2 /* AppleWatch_NotificationCenter_42mm_27.5pt@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
