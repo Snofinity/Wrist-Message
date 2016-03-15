@@ -1,10 +1,4 @@
-//
-//  ExtensionDelegate.swift
-//  Wrist Message WatchKit Extension
-//
-//  Created by Tyler Cheves on 3/11/16.
-//  Copyright © 2016 Healthy Pixels. All rights reserved.
-//
+// Wrist Message v1.0
 
 import WatchKit
 
