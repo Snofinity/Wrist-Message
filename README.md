@@ -36,7 +36,7 @@ Stunned, I arranged a phone call with a member of the App Store review board. Ov
 
 I finally asked them if my idea for a text messaging keyboard on the Apple Watch was even possible. To no surprise, they said it wouldn’t be accepted under their current guidelines. But after looking over their guidelines, I found no mention at all of this imaginary keyboard restriction. When I first started developing Wrist Message, the absence of a restriction made sense to me as I had found many Apple Watch apps that use Alphanumeric input. Unfortunately, Wrist Message was a red flag for Apple, who after contacting me claims that they will adjust their documentation to make keyboard restrictions more clear.
 
-For now, don’t expect to find a keyboard that sends text messages on the App Store. It is because of Apple’s unfair restrictions that I'm posting Wrist Message on GitHub. Feel free to Fork this project and donate using the button below.
+For now, don’t expect to find an Apple Watch text messaging keyboard on the App Store. It is because of Apple’s unfair restrictions that I'm posting Wrist Message on GitHub. Feel free to Fork this project and donate using the button below.
 
 Tyler Cheves
 <br />
