@@ -39,7 +39,9 @@ I finally asked them if my idea for a text messaging keyboard on the Apple Watch
 For now, don’t expect to find an Apple Watch text messaging keyboard on the App Store. It is because of Apple’s unfair restrictions that I'm posting Wrist Message on GitHub. Feel free to Fork this project and donate using the button below.
 
 Tyler Cheves
+
 tyler@cheves.com
+
 949-300-2743
 <br />
 
