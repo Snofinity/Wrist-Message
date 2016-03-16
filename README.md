@@ -44,3 +44,7 @@ tyler@cheves.com<br />
 <br />
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F5BC7LH45SZVJ)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Snofinity/wrist-message/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
